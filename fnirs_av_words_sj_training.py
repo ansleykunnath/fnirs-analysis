@@ -24,7 +24,7 @@ import mne
 from mne.preprocessing.nirs import tddr
 import glob
 
-%matplotlib qt
+
 warnings.filterwarnings("ignore", category=DeprecationWarning) 
 warnings.filterwarnings("ignore", category=FutureWarning) 
 
