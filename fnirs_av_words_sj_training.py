@@ -28,7 +28,7 @@ import glob
 warnings.filterwarnings("ignore", category=DeprecationWarning) 
 warnings.filterwarnings("ignore", category=FutureWarning) 
 
-subjects = ('201 202 203 204 205 206 207 208 209 212 213 214 215 216 217 218 219 221').split()
+subjects = ('201 202 203 204 205 206 207 208 209 212 213 214 215 216 217 218 ').split() #219 221 223 224
 # Mapping of subjects to groups
 subject_to_group = {
     201: "trained",
@@ -47,8 +47,11 @@ subject_to_group = {
     216: "trained",
     217: "control",
     218: "control",
-    219: "trained",
-    221: "trained",
+#    219: "trained",
+#    220: "control", <- sampling rate incorrect for day 3...
+#    221: "trained",
+#    223: "trained",
+#    224: "control",
 }
 
 sfreq = 4.807692
@@ -194,7 +197,7 @@ def _make_design(raw_h, design, subject=None, run=None, day=None, group=None):
     count = np.bincount(events[:, 2])
     assert np.array_equal(count, want), count
     assert events.shape == (100, 3), events.shape
-    mne.viz.plot_events(events)
+    #mne.viz.plot_events(events)
     if design == 'block':
         events = events[0::5]
         duration = 20.
@@ -226,46 +229,46 @@ def _make_design(raw_h, design, subject=None, run=None, day=None, group=None):
 ###############################################################################
 # Plot the design matrix and some raw traces
 
-fig, axes = plt.subplots(2, 1, figsize=(6., 3), constrained_layout=True)
-# Design
-ax = axes[0]
-raw_h = use['h']
-stim, dm, _ = _make_design(raw_h, design)
-for ci, condition in enumerate(conditions):
-    color = condition_colors[condition]
-    ax.fill_between(
-        raw_h.times, stim[:, ci], 0, edgecolor='none', facecolor='k',
-        alpha=0.5)
-    model = dm[conditions[ci]].to_numpy()
-    ax.plot(raw_h.times, model, ls='-', lw=1, color=color)
-    x = raw_h.times[np.where(model > 0)[0][0]]
-    ax.text(
-        x + 10, 1.1, condition, color=color, fontweight='bold', ha='center')
-ax.set(ylabel='Modeled\noxyHb', xlabel='', xlim=raw_h.times[[0, -1]])
+# fig, axes = plt.subplots(2, 1, figsize=(6., 3), constrained_layout=True)
+# # Design
+# ax = axes[0]
+# raw_h = use['h']
+# stim, dm, _ = _make_design(raw_h, design)
+# for ci, condition in enumerate(conditions):
+#     color = condition_colors[condition]
+#     ax.fill_between(
+#         raw_h.times, stim[:, ci], 0, edgecolor='none', facecolor='k',
+#         alpha=0.5)
+#     model = dm[conditions[ci]].to_numpy()
+#     ax.plot(raw_h.times, model, ls='-', lw=1, color=color)
+#     x = raw_h.times[np.where(model > 0)[0][0]]
+#     ax.text(
+#         x + 10, 1.1, condition, color=color, fontweight='bold', ha='center')
+# ax.set(ylabel='Modeled\noxyHb', xlabel='', xlim=raw_h.times[[0, -1]])
 
-# HbO/HbR
-ax = axes[1]
-picks = [pi for pi, ch_name in enumerate(raw_h.ch_names)
-         if 'S1_D2' in ch_name]
-assert len(picks) == 2
-fnirs_colors = dict(hbo='r', hbr='b')
-ylim = np.array([-0.5, 0.5])
-for pi, pick in enumerate(picks):
-    color = fnirs_colors[raw_h.ch_names[pick][-3:]]
-    data = raw_h.get_data(pick)[0] * 1e6
-    val = np.ptp(data)
-    assert val > 0.01
-    ax.plot(raw_h.times, data, color=color, lw=1.)
-ax.set(ylim=ylim, xlabel='Time (s)', ylabel='μM',
-       xlim=raw_h.times[[0, -1]])
-del raw_h
-for ax in axes:
-    for key in ('top', 'right'):
-        ax.spines[key].set_visible(False)
-for ext in ('png', 'svg'):
-    fig.savefig(
-        op.join(
-            results_path, f'figure_1_{exp_name}.{ext}'))
+# # HbO/HbR
+# ax = axes[1]
+# picks = [pi for pi, ch_name in enumerate(raw_h.ch_names)
+#          if 'S1_D2' in ch_name]
+# assert len(picks) == 2
+# fnirs_colors = dict(hbo='r', hbr='b')
+# ylim = np.array([-0.5, 0.5])
+# for pi, pick in enumerate(picks):
+#     color = fnirs_colors[raw_h.ch_names[pick][-3:]]
+#     data = raw_h.get_data(pick)[0] * 1e6
+#     val = np.ptp(data)
+#     assert val > 0.01
+#     ax.plot(raw_h.times, data, color=color, lw=1.)
+# ax.set(ylim=ylim, xlabel='Time (s)', ylabel='μM',
+#        xlim=raw_h.times[[0, -1]])
+# del raw_h
+# for ax in axes:
+#     for key in ('top', 'right'):
+#         ax.spines[key].set_visible(False)
+# for ext in ('png', 'svg'):
+#     fig.savefig(
+#         op.join(
+#             results_path, f'figure_1_{exp_name}.{ext}'))
 
 
 ###############################################################################
@@ -277,28 +280,28 @@ df_cha = pd.DataFrame()
 for day in days:
     for subject in subjects:
         fname = op.join(proc_path, f'{subject}_{day}_{exp_name}.h5')
-        if not op.isfile(fname):
-            group = subject_to_group.get(int(subject), "unknown")
-            fname = op.join(proc_path, f'{subject}_{day}_{exp_name}.h5')
-            subj_cha = pd.DataFrame()
-            t0 = time.time()
-            for run in runs:
-                print(f'Running GLM for {group} {subject} day {day} run {run:03d}... ', end='')
-                fname2 = op.join(proc_path, f'{subject}_{day}_{run:03d}_hbo_raw.fif')
-                raw_h = mne.io.read_raw_fif(fname2)
-                _, dm, _ = _make_design(raw_h, design, subject, run, day, group)
-                glm_est = mne_nirs.statistics.run_glm(
-                    raw_h, dm, noise_model='ols', n_jobs=n_jobs)
-                cha = glm_est.to_dataframe()
-                cha['subject'] = subject
-                cha['run'] = run
-                cha['day'] = day
-                cha['group'] = group
-                cha['good'] = ~np.in1d(cha['ch_name'], bads)
-                subj_cha = pd.concat([subj_cha, cha], ignore_index=True)
-                del raw_h
-            subj_cha.to_hdf(fname, 'subj_cha', mode='w')
-            print(f'{time.time() - t0:0.1f} sec')
+        #if not op.isfile(fname):
+        group = subject_to_group.get(int(subject), "unknown")
+        fname = op.join(proc_path, f'{subject}_{day}_{exp_name}.h5')
+        subj_cha = pd.DataFrame()
+        t0 = time.time()
+        for run in runs:
+            print(f'Running GLM for {group} {subject} day {day} run {run:03d}... ', end='')
+            fname2 = op.join(proc_path, f'{subject}_{day}_{run:03d}_hbo_raw.fif')
+            raw_h = mne.io.read_raw_fif(fname2)
+            _, dm, _ = _make_design(raw_h, design, subject, run, day, group)
+            glm_est = mne_nirs.statistics.run_glm(
+                raw_h, dm, noise_model='ols', n_jobs=n_jobs)
+            cha = glm_est.to_dataframe()
+            cha['subject'] = subject
+            cha['run'] = run
+            cha['day'] = day
+            cha['group'] = group
+            cha['good'] = ~np.in1d(cha['ch_name'], bads)
+            subj_cha = pd.concat([subj_cha, cha], ignore_index=True)
+            del raw_h
+        subj_cha.to_hdf(fname, 'subj_cha', mode='w')
+        print(f'{time.time() - t0:0.1f} sec')
         df_cha = pd.concat([df_cha, pd.read_hdf(fname)], ignore_index=True)
 df_cha.reset_index(drop=True, inplace=True)
 
@@ -309,28 +312,28 @@ for day in days:
     for subject in subjects:
         fname = op.join(
             proc_path, f'{subject}_{day}_{exp_name}-ave.fif')
-        if not op.isfile(fname):
-            tmin, tmax = -2, 38
-            baseline = (None, 0)
-            t0 = time.time()
-            print(f'Creating block average for {subject} ... ', end='')
-            raws = list()
-            events = list()
-            for run in runs:
-                fname2 = op.join(proc_path, f'{subject}_{day}_{run:03d}_hbo_raw.fif')
-                raw_h = mne.io.read_raw_fif(fname2)
-                events.append(_make_design(raw_h, 'block', subject, run)[2])
-                raws.append(raw_h)
-            bads = sorted(set(sum((r.info['bads'] for r in raws), [])))
-            for r in raws:
-                r.info['bads'] = bads
-            raw_h, events = mne.concatenate_raws(raws, events_list=events)
-            epochs = mne.Epochs(raw_h, events, event_id, tmin=tmin, tmax=tmax,
-                                baseline=baseline)
-            this_ev = [epochs[condition].average() for condition in conditions]
-            assert all(ev.nave > 0 for ev in this_ev)
-            mne.write_evokeds(fname, this_ev, overwrite=True)
-            print(f'{time.time() - t0:0.1f} sec')
+        #if not op.isfile(fname):
+        tmin, tmax = -2, 38
+        baseline = (None, 0)
+        t0 = time.time()
+        print(f'Creating block average for {subject} ... ', end='')
+        raws = list()
+        events = list()
+        for run in runs:
+            fname2 = op.join(proc_path, f'{subject}_{day}_{run:03d}_hbo_raw.fif')
+            raw_h = mne.io.read_raw_fif(fname2)
+            events.append(_make_design(raw_h, 'block', subject, run)[2])
+            raws.append(raw_h)
+        bads = sorted(set(sum((r.info['bads'] for r in raws), [])))
+        for r in raws:
+            r.info['bads'] = bads
+        raw_h, events = mne.concatenate_raws(raws, events_list=events)
+        epochs = mne.Epochs(raw_h, events, event_id, tmin=tmin, tmax=tmax,
+                            baseline=baseline)
+        this_ev = [epochs[condition].average() for condition in conditions]
+        assert all(ev.nave > 0 for ev in this_ev)
+        mne.write_evokeds(fname, this_ev, overwrite=True)
+        print(f'{time.time() - t0:0.1f} sec')
         for condition in conditions:
             evokeds[condition][subject] = mne.read_evokeds(fname, condition)
 
@@ -392,6 +395,10 @@ df_cha.reset_index(drop=True, inplace=True)
 df_cha['theta'] = theta
 df_cha.to_csv(op.join(results_path, 'df_cha.csv'), index=False)
 df_cha.to_csv(op.join('df_cha.csv'), index=False)
+
+
+###############################################################################
+# Identify significant channels with LME model
 
 # Mixed linear model
 def _mixed_df(ch_summary):
