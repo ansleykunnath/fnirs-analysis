@@ -28,7 +28,7 @@ import glob
 warnings.filterwarnings("ignore", category=DeprecationWarning) 
 warnings.filterwarnings("ignore", category=FutureWarning) 
 
-subjects = ('201 202 203 204 205 206 207 208 209 212 213 214 215 216 217 218 ').split() #219 221 223 224
+subjects = ('201 202 203 204 205 206 207 208 209 212 213 214 215 216 217 218 219 221 223 224').split()
 # Mapping of subjects to groups
 subject_to_group = {
     201: "trained",
@@ -47,11 +47,11 @@ subject_to_group = {
     216: "trained",
     217: "control",
     218: "control",
-#    219: "trained",
+    219: "trained",
 #    220: "control", <- sampling rate incorrect for day 3...
-#    221: "trained",
-#    223: "trained",
-#    224: "control",
+    221: "trained",
+    223: "trained",
+    224: "control",
 }
 
 sfreq = 4.807692

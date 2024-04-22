@@ -11,6 +11,8 @@ df = pd.read_csv('df_cha.csv')
 df = df[df['Chroma'] != 'hbr']
 
 # Separate data into 'trained' and 'control' groups
+#trained_df_1 = df[(df['group'] == 'trained') & (df['day'] == 1) & (df['Condition'].isin(['A', 'V', 'AV']))]
+
 trained_df_1 = df[(df['group'] == 'trained') & (df['day'] == 1)]
 control_df_1 = df[(df['group'] == 'control') & (df['day'] == 1)]
 trained_df_3 = df[(df['group'] == 'trained') & (df['day'] == 3)]
