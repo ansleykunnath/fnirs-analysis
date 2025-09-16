@@ -1,0 +1,321 @@
+Landmark,subject,day,group,Condition,Z_Score
+45 - pars triangularis Broca's area,201,1,DPZ,A,4.255854927729767e-16
+45 - pars triangularis Broca's area,201,1,DPZ,AV,1.4802973661668753e-16
+45 - pars triangularis Broca's area,201,1,DPZ,V,0.0
+45 - pars triangularis Broca's area,201,1,DPZ,W,-7.401486830834377e-17
+45 - pars triangularis Broca's area,201,1,DPZ,constant,-3.700743415417188e-17
+45 - pars triangularis Broca's area,201,3,DPZ,A,5.551115123125783e-16
+45 - pars triangularis Broca's area,201,3,DPZ,AV,1.4802973661668753e-16
+45 - pars triangularis Broca's area,201,3,DPZ,V,7.401486830834377e-17
+45 - pars triangularis Broca's area,201,3,DPZ,W,-1.4802973661668753e-16
+45 - pars triangularis Broca's area,201,3,DPZ,constant,1.4802973661668753e-16
+45 - pars triangularis Broca's area,203,1,PL,A,0.0
+45 - pars triangularis Broca's area,203,1,PL,AV,7.401486830834377e-17
+45 - pars triangularis Broca's area,203,1,PL,V,7.401486830834377e-17
+45 - pars triangularis Broca's area,203,1,PL,W,7.401486830834377e-17
+45 - pars triangularis Broca's area,203,1,PL,constant,7.401486830834377e-17
+45 - pars triangularis Broca's area,203,3,PL,A,0.0
+45 - pars triangularis Broca's area,203,3,PL,AV,1.7289410643902178e-16
+45 - pars triangularis Broca's area,203,3,PL,V,2.590520390792032e-16
+45 - pars triangularis Broca's area,203,3,PL,W,2.590520390792032e-16
+45 - pars triangularis Broca's area,203,3,PL,constant,1.4802973661668753e-16
+45 - pars triangularis Broca's area,204,1,DPZ,A,-7.401486830834377e-17
+45 - pars triangularis Broca's area,204,1,DPZ,AV,2.220446049250313e-16
+45 - pars triangularis Broca's area,204,1,DPZ,V,1.8503717077085943e-16
+45 - pars triangularis Broca's area,204,1,DPZ,W,-3.700743415417188e-17
+45 - pars triangularis Broca's area,204,1,DPZ,constant,1.4802973661668753e-16
+45 - pars triangularis Broca's area,204,3,DPZ,A,2.590520390792032e-16
+45 - pars triangularis Broca's area,204,3,DPZ,AV,0.0
+45 - pars triangularis Broca's area,204,3,DPZ,V,2.9605947323337506e-16
+45 - pars triangularis Broca's area,204,3,DPZ,W,-1.8503717077085943e-16
+45 - pars triangularis Broca's area,204,3,DPZ,constant,0.0
+45 - pars triangularis Broca's area,205,1,PL,A,-7.401486830834377e-17
+45 - pars triangularis Broca's area,205,1,PL,AV,1.1102230246251565e-16
+45 - pars triangularis Broca's area,205,1,PL,V,-1.8503717077085943e-16
+45 - pars triangularis Broca's area,205,1,PL,W,-2.590520390792032e-16
+45 - pars triangularis Broca's area,205,1,PL,constant,-2.9605947323337506e-16
+45 - pars triangularis Broca's area,205,3,PL,A,7.401486830834377e-17
+45 - pars triangularis Broca's area,205,3,PL,AV,7.401486830834377e-17
+45 - pars triangularis Broca's area,205,3,PL,V,7.401486830834377e-17
+45 - pars triangularis Broca's area,205,3,PL,W,7.401486830834377e-17
+45 - pars triangularis Broca's area,205,3,PL,constant,-1.4802973661668753e-16
+45 - pars triangularis Broca's area,207,1,PL,A,-7.401486830834377e-17
+45 - pars triangularis Broca's area,207,1,PL,AV,4.070817756958907e-16
+45 - pars triangularis Broca's area,207,1,PL,V,3.515706244646329e-16
+45 - pars triangularis Broca's area,207,1,PL,W,1.8503717077085943e-16
+45 - pars triangularis Broca's area,207,1,PL,constant,-1.8503717077085943e-16
+45 - pars triangularis Broca's area,207,3,PL,A,7.401486830834377e-17
+45 - pars triangularis Broca's area,207,3,PL,AV,-2.9605947323337506e-16
+45 - pars triangularis Broca's area,207,3,PL,V,5.551115123125783e-16
+45 - pars triangularis Broca's area,207,3,PL,W,-4.625929269271486e-16
+45 - pars triangularis Broca's area,207,3,PL,constant,0.0
+45 - pars triangularis Broca's area,209,1,DPZ,A,1.1102230246251565e-16
+45 - pars triangularis Broca's area,209,1,DPZ,AV,-4.070817756958907e-16
+45 - pars triangularis Broca's area,209,1,DPZ,V,-7.401486830834377e-17
+45 - pars triangularis Broca's area,209,1,DPZ,W,0.0
+45 - pars triangularis Broca's area,209,1,DPZ,constant,-7.401486830834377e-17
+45 - pars triangularis Broca's area,209,3,DPZ,A,0.0
+45 - pars triangularis Broca's area,209,3,DPZ,AV,1.1102230246251565e-16
+45 - pars triangularis Broca's area,209,3,DPZ,V,3.700743415417188e-17
+45 - pars triangularis Broca's area,209,3,DPZ,W,-7.401486830834377e-17
+45 - pars triangularis Broca's area,209,3,DPZ,constant,1.4802973661668753e-16
+45 - pars triangularis Broca's area,212,1,DPZ,A,0.0
+45 - pars triangularis Broca's area,212,1,DPZ,AV,-1.850371707708594e-17
+45 - pars triangularis Broca's area,212,1,DPZ,V,1.4802973661668753e-16
+45 - pars triangularis Broca's area,212,1,DPZ,W,4.440892098500626e-16
+45 - pars triangularis Broca's area,212,1,DPZ,constant,1.4802973661668753e-16
+45 - pars triangularis Broca's area,212,3,DPZ,A,-1.4802973661668753e-16
+45 - pars triangularis Broca's area,212,3,DPZ,AV,-1.4802973661668753e-16
+45 - pars triangularis Broca's area,212,3,DPZ,V,5.04226290350592e-16
+45 - pars triangularis Broca's area,212,3,DPZ,W,2.220446049250313e-16
+45 - pars triangularis Broca's area,212,3,DPZ,constant,7.401486830834377e-17
+45 - pars triangularis Broca's area,213,1,PL,A,3.7007434154171886e-16
+45 - pars triangularis Broca's area,213,1,PL,AV,0.0
+45 - pars triangularis Broca's area,213,1,PL,V,-3.3306690738754696e-16
+45 - pars triangularis Broca's area,213,1,PL,W,3.7007434154171886e-16
+45 - pars triangularis Broca's area,213,1,PL,constant,2.9605947323337506e-16
+45 - pars triangularis Broca's area,213,3,PL,A,1.4802973661668753e-16
+45 - pars triangularis Broca's area,213,3,PL,AV,-1.1102230246251565e-16
+45 - pars triangularis Broca's area,213,3,PL,V,2.220446049250313e-16
+45 - pars triangularis Broca's area,213,3,PL,W,2.7755575615628914e-16
+45 - pars triangularis Broca's area,213,3,PL,constant,3.700743415417188e-17
+46 - Dorsolateral prefrontal cortex,201,1,DPZ,A,4.255854927729767e-16
+46 - Dorsolateral prefrontal cortex,201,1,DPZ,AV,1.4802973661668753e-16
+46 - Dorsolateral prefrontal cortex,201,1,DPZ,V,0.0
+46 - Dorsolateral prefrontal cortex,201,1,DPZ,W,-7.401486830834377e-17
+46 - Dorsolateral prefrontal cortex,201,1,DPZ,constant,-3.700743415417188e-17
+46 - Dorsolateral prefrontal cortex,201,3,DPZ,A,5.551115123125783e-16
+46 - Dorsolateral prefrontal cortex,201,3,DPZ,AV,1.4802973661668753e-16
+46 - Dorsolateral prefrontal cortex,201,3,DPZ,V,7.401486830834377e-17
+46 - Dorsolateral prefrontal cortex,201,3,DPZ,W,-1.4802973661668753e-16
+46 - Dorsolateral prefrontal cortex,201,3,DPZ,constant,1.4802973661668753e-16
+46 - Dorsolateral prefrontal cortex,203,1,PL,A,0.0
+46 - Dorsolateral prefrontal cortex,203,1,PL,AV,7.401486830834377e-17
+46 - Dorsolateral prefrontal cortex,203,1,PL,V,7.401486830834377e-17
+46 - Dorsolateral prefrontal cortex,203,1,PL,W,7.401486830834377e-17
+46 - Dorsolateral prefrontal cortex,203,1,PL,constant,7.401486830834377e-17
+46 - Dorsolateral prefrontal cortex,203,3,PL,A,0.0
+46 - Dorsolateral prefrontal cortex,203,3,PL,AV,1.7289410643902178e-16
+46 - Dorsolateral prefrontal cortex,203,3,PL,V,2.590520390792032e-16
+46 - Dorsolateral prefrontal cortex,203,3,PL,W,2.590520390792032e-16
+46 - Dorsolateral prefrontal cortex,203,3,PL,constant,1.4802973661668753e-16
+46 - Dorsolateral prefrontal cortex,204,1,DPZ,A,-7.401486830834377e-17
+46 - Dorsolateral prefrontal cortex,204,1,DPZ,AV,2.220446049250313e-16
+46 - Dorsolateral prefrontal cortex,204,1,DPZ,V,1.8503717077085943e-16
+46 - Dorsolateral prefrontal cortex,204,1,DPZ,W,-3.700743415417188e-17
+46 - Dorsolateral prefrontal cortex,204,1,DPZ,constant,1.4802973661668753e-16
+46 - Dorsolateral prefrontal cortex,204,3,DPZ,A,2.590520390792032e-16
+46 - Dorsolateral prefrontal cortex,204,3,DPZ,AV,0.0
+46 - Dorsolateral prefrontal cortex,204,3,DPZ,V,2.9605947323337506e-16
+46 - Dorsolateral prefrontal cortex,204,3,DPZ,W,-1.8503717077085943e-16
+46 - Dorsolateral prefrontal cortex,204,3,DPZ,constant,0.0
+46 - Dorsolateral prefrontal cortex,205,1,PL,A,-7.401486830834377e-17
+46 - Dorsolateral prefrontal cortex,205,1,PL,AV,1.1102230246251565e-16
+46 - Dorsolateral prefrontal cortex,205,1,PL,V,-1.8503717077085943e-16
+46 - Dorsolateral prefrontal cortex,205,1,PL,W,-2.590520390792032e-16
+46 - Dorsolateral prefrontal cortex,205,1,PL,constant,-2.9605947323337506e-16
+46 - Dorsolateral prefrontal cortex,205,3,PL,A,7.401486830834377e-17
+46 - Dorsolateral prefrontal cortex,205,3,PL,AV,7.401486830834377e-17
+46 - Dorsolateral prefrontal cortex,205,3,PL,V,7.401486830834377e-17
+46 - Dorsolateral prefrontal cortex,205,3,PL,W,7.401486830834377e-17
+46 - Dorsolateral prefrontal cortex,205,3,PL,constant,-1.4802973661668753e-16
+46 - Dorsolateral prefrontal cortex,207,1,PL,A,-7.401486830834377e-17
+46 - Dorsolateral prefrontal cortex,207,1,PL,AV,4.070817756958907e-16
+46 - Dorsolateral prefrontal cortex,207,1,PL,V,3.515706244646329e-16
+46 - Dorsolateral prefrontal cortex,207,1,PL,W,1.8503717077085943e-16
+46 - Dorsolateral prefrontal cortex,207,1,PL,constant,-1.8503717077085943e-16
+46 - Dorsolateral prefrontal cortex,207,3,PL,A,7.401486830834377e-17
+46 - Dorsolateral prefrontal cortex,207,3,PL,AV,-2.9605947323337506e-16
+46 - Dorsolateral prefrontal cortex,207,3,PL,V,5.551115123125783e-16
+46 - Dorsolateral prefrontal cortex,207,3,PL,W,-4.625929269271486e-16
+46 - Dorsolateral prefrontal cortex,207,3,PL,constant,0.0
+46 - Dorsolateral prefrontal cortex,209,1,DPZ,A,1.1102230246251565e-16
+46 - Dorsolateral prefrontal cortex,209,1,DPZ,AV,-4.070817756958907e-16
+46 - Dorsolateral prefrontal cortex,209,1,DPZ,V,-7.401486830834377e-17
+46 - Dorsolateral prefrontal cortex,209,1,DPZ,W,0.0
+46 - Dorsolateral prefrontal cortex,209,1,DPZ,constant,-7.401486830834377e-17
+46 - Dorsolateral prefrontal cortex,209,3,DPZ,A,0.0
+46 - Dorsolateral prefrontal cortex,209,3,DPZ,AV,1.1102230246251565e-16
+46 - Dorsolateral prefrontal cortex,209,3,DPZ,V,3.700743415417188e-17
+46 - Dorsolateral prefrontal cortex,209,3,DPZ,W,-7.401486830834377e-17
+46 - Dorsolateral prefrontal cortex,209,3,DPZ,constant,1.4802973661668753e-16
+46 - Dorsolateral prefrontal cortex,212,1,DPZ,A,0.0
+46 - Dorsolateral prefrontal cortex,212,1,DPZ,AV,-1.850371707708594e-17
+46 - Dorsolateral prefrontal cortex,212,1,DPZ,V,1.4802973661668753e-16
+46 - Dorsolateral prefrontal cortex,212,1,DPZ,W,4.440892098500626e-16
+46 - Dorsolateral prefrontal cortex,212,1,DPZ,constant,1.4802973661668753e-16
+46 - Dorsolateral prefrontal cortex,212,3,DPZ,A,-1.4802973661668753e-16
+46 - Dorsolateral prefrontal cortex,212,3,DPZ,AV,-1.4802973661668753e-16
+46 - Dorsolateral prefrontal cortex,212,3,DPZ,V,5.04226290350592e-16
+46 - Dorsolateral prefrontal cortex,212,3,DPZ,W,2.220446049250313e-16
+46 - Dorsolateral prefrontal cortex,212,3,DPZ,constant,7.401486830834377e-17
+46 - Dorsolateral prefrontal cortex,213,1,PL,A,3.7007434154171886e-16
+46 - Dorsolateral prefrontal cortex,213,1,PL,AV,0.0
+46 - Dorsolateral prefrontal cortex,213,1,PL,V,-3.3306690738754696e-16
+46 - Dorsolateral prefrontal cortex,213,1,PL,W,3.7007434154171886e-16
+46 - Dorsolateral prefrontal cortex,213,1,PL,constant,2.9605947323337506e-16
+46 - Dorsolateral prefrontal cortex,213,3,PL,A,1.4802973661668753e-16
+46 - Dorsolateral prefrontal cortex,213,3,PL,AV,-1.1102230246251565e-16
+46 - Dorsolateral prefrontal cortex,213,3,PL,V,2.220446049250313e-16
+46 - Dorsolateral prefrontal cortex,213,3,PL,W,2.7755575615628914e-16
+46 - Dorsolateral prefrontal cortex,213,3,PL,constant,3.700743415417188e-17
+47 - Inferior prefrontal gyrus,201,1,DPZ,A,4.255854927729767e-16
+47 - Inferior prefrontal gyrus,201,1,DPZ,AV,1.4802973661668753e-16
+47 - Inferior prefrontal gyrus,201,1,DPZ,V,0.0
+47 - Inferior prefrontal gyrus,201,1,DPZ,W,-7.401486830834377e-17
+47 - Inferior prefrontal gyrus,201,1,DPZ,constant,-3.700743415417188e-17
+47 - Inferior prefrontal gyrus,201,3,DPZ,A,5.551115123125783e-16
+47 - Inferior prefrontal gyrus,201,3,DPZ,AV,1.4802973661668753e-16
+47 - Inferior prefrontal gyrus,201,3,DPZ,V,7.401486830834377e-17
+47 - Inferior prefrontal gyrus,201,3,DPZ,W,-1.4802973661668753e-16
+47 - Inferior prefrontal gyrus,201,3,DPZ,constant,1.4802973661668753e-16
+47 - Inferior prefrontal gyrus,203,1,PL,A,0.0
+47 - Inferior prefrontal gyrus,203,1,PL,AV,7.401486830834377e-17
+47 - Inferior prefrontal gyrus,203,1,PL,V,7.401486830834377e-17
+47 - Inferior prefrontal gyrus,203,1,PL,W,7.401486830834377e-17
+47 - Inferior prefrontal gyrus,203,1,PL,constant,7.401486830834377e-17
+47 - Inferior prefrontal gyrus,203,3,PL,A,0.0
+47 - Inferior prefrontal gyrus,203,3,PL,AV,1.7289410643902178e-16
+47 - Inferior prefrontal gyrus,203,3,PL,V,2.590520390792032e-16
+47 - Inferior prefrontal gyrus,203,3,PL,W,2.590520390792032e-16
+47 - Inferior prefrontal gyrus,203,3,PL,constant,1.4802973661668753e-16
+47 - Inferior prefrontal gyrus,204,1,DPZ,A,-7.401486830834377e-17
+47 - Inferior prefrontal gyrus,204,1,DPZ,AV,2.220446049250313e-16
+47 - Inferior prefrontal gyrus,204,1,DPZ,V,1.8503717077085943e-16
+47 - Inferior prefrontal gyrus,204,1,DPZ,W,-3.700743415417188e-17
+47 - Inferior prefrontal gyrus,204,1,DPZ,constant,1.4802973661668753e-16
+47 - Inferior prefrontal gyrus,204,3,DPZ,A,2.590520390792032e-16
+47 - Inferior prefrontal gyrus,204,3,DPZ,AV,0.0
+47 - Inferior prefrontal gyrus,204,3,DPZ,V,2.9605947323337506e-16
+47 - Inferior prefrontal gyrus,204,3,DPZ,W,-1.8503717077085943e-16
+47 - Inferior prefrontal gyrus,204,3,DPZ,constant,0.0
+47 - Inferior prefrontal gyrus,205,1,PL,A,-7.401486830834377e-17
+47 - Inferior prefrontal gyrus,205,1,PL,AV,1.1102230246251565e-16
+47 - Inferior prefrontal gyrus,205,1,PL,V,-1.8503717077085943e-16
+47 - Inferior prefrontal gyrus,205,1,PL,W,-2.590520390792032e-16
+47 - Inferior prefrontal gyrus,205,1,PL,constant,-2.9605947323337506e-16
+47 - Inferior prefrontal gyrus,205,3,PL,A,7.401486830834377e-17
+47 - Inferior prefrontal gyrus,205,3,PL,AV,7.401486830834377e-17
+47 - Inferior prefrontal gyrus,205,3,PL,V,7.401486830834377e-17
+47 - Inferior prefrontal gyrus,205,3,PL,W,7.401486830834377e-17
+47 - Inferior prefrontal gyrus,205,3,PL,constant,-1.4802973661668753e-16
+47 - Inferior prefrontal gyrus,207,1,PL,A,-7.401486830834377e-17
+47 - Inferior prefrontal gyrus,207,1,PL,AV,4.070817756958907e-16
+47 - Inferior prefrontal gyrus,207,1,PL,V,3.515706244646329e-16
+47 - Inferior prefrontal gyrus,207,1,PL,W,1.8503717077085943e-16
+47 - Inferior prefrontal gyrus,207,1,PL,constant,-1.8503717077085943e-16
+47 - Inferior prefrontal gyrus,207,3,PL,A,7.401486830834377e-17
+47 - Inferior prefrontal gyrus,207,3,PL,AV,-2.9605947323337506e-16
+47 - Inferior prefrontal gyrus,207,3,PL,V,5.551115123125783e-16
+47 - Inferior prefrontal gyrus,207,3,PL,W,-4.625929269271486e-16
+47 - Inferior prefrontal gyrus,207,3,PL,constant,0.0
+47 - Inferior prefrontal gyrus,209,1,DPZ,A,1.1102230246251565e-16
+47 - Inferior prefrontal gyrus,209,1,DPZ,AV,-4.070817756958907e-16
+47 - Inferior prefrontal gyrus,209,1,DPZ,V,-7.401486830834377e-17
+47 - Inferior prefrontal gyrus,209,1,DPZ,W,0.0
+47 - Inferior prefrontal gyrus,209,1,DPZ,constant,-7.401486830834377e-17
+47 - Inferior prefrontal gyrus,209,3,DPZ,A,0.0
+47 - Inferior prefrontal gyrus,209,3,DPZ,AV,1.1102230246251565e-16
+47 - Inferior prefrontal gyrus,209,3,DPZ,V,3.700743415417188e-17
+47 - Inferior prefrontal gyrus,209,3,DPZ,W,-7.401486830834377e-17
+47 - Inferior prefrontal gyrus,209,3,DPZ,constant,1.4802973661668753e-16
+47 - Inferior prefrontal gyrus,212,1,DPZ,A,0.0
+47 - Inferior prefrontal gyrus,212,1,DPZ,AV,-1.850371707708594e-17
+47 - Inferior prefrontal gyrus,212,1,DPZ,V,1.4802973661668753e-16
+47 - Inferior prefrontal gyrus,212,1,DPZ,W,4.440892098500626e-16
+47 - Inferior prefrontal gyrus,212,1,DPZ,constant,1.4802973661668753e-16
+47 - Inferior prefrontal gyrus,212,3,DPZ,A,-1.4802973661668753e-16
+47 - Inferior prefrontal gyrus,212,3,DPZ,AV,-1.4802973661668753e-16
+47 - Inferior prefrontal gyrus,212,3,DPZ,V,5.04226290350592e-16
+47 - Inferior prefrontal gyrus,212,3,DPZ,W,2.220446049250313e-16
+47 - Inferior prefrontal gyrus,212,3,DPZ,constant,7.401486830834377e-17
+47 - Inferior prefrontal gyrus,213,1,PL,A,3.7007434154171886e-16
+47 - Inferior prefrontal gyrus,213,1,PL,AV,0.0
+47 - Inferior prefrontal gyrus,213,1,PL,V,-3.3306690738754696e-16
+47 - Inferior prefrontal gyrus,213,1,PL,W,3.7007434154171886e-16
+47 - Inferior prefrontal gyrus,213,1,PL,constant,2.9605947323337506e-16
+47 - Inferior prefrontal gyrus,213,3,PL,A,1.4802973661668753e-16
+47 - Inferior prefrontal gyrus,213,3,PL,AV,-1.1102230246251565e-16
+47 - Inferior prefrontal gyrus,213,3,PL,V,2.220446049250313e-16
+47 - Inferior prefrontal gyrus,213,3,PL,W,2.7755575615628914e-16
+47 - Inferior prefrontal gyrus,213,3,PL,constant,3.700743415417188e-17
+Brain_Outside,201,1,DPZ,A,4.255854927729767e-16
+Brain_Outside,201,1,DPZ,AV,1.4802973661668753e-16
+Brain_Outside,201,1,DPZ,V,0.0
+Brain_Outside,201,1,DPZ,W,-7.401486830834377e-17
+Brain_Outside,201,1,DPZ,constant,-3.700743415417188e-17
+Brain_Outside,201,3,DPZ,A,5.551115123125783e-16
+Brain_Outside,201,3,DPZ,AV,1.4802973661668753e-16
+Brain_Outside,201,3,DPZ,V,7.401486830834377e-17
+Brain_Outside,201,3,DPZ,W,-1.4802973661668753e-16
+Brain_Outside,201,3,DPZ,constant,1.4802973661668753e-16
+Brain_Outside,203,1,PL,A,0.0
+Brain_Outside,203,1,PL,AV,7.401486830834377e-17
+Brain_Outside,203,1,PL,V,7.401486830834377e-17
+Brain_Outside,203,1,PL,W,7.401486830834377e-17
+Brain_Outside,203,1,PL,constant,7.401486830834377e-17
+Brain_Outside,203,3,PL,A,0.0
+Brain_Outside,203,3,PL,AV,1.7289410643902178e-16
+Brain_Outside,203,3,PL,V,2.590520390792032e-16
+Brain_Outside,203,3,PL,W,2.590520390792032e-16
+Brain_Outside,203,3,PL,constant,1.4802973661668753e-16
+Brain_Outside,204,1,DPZ,A,-7.401486830834377e-17
+Brain_Outside,204,1,DPZ,AV,2.220446049250313e-16
+Brain_Outside,204,1,DPZ,V,1.8503717077085943e-16
+Brain_Outside,204,1,DPZ,W,-3.700743415417188e-17
+Brain_Outside,204,1,DPZ,constant,1.4802973661668753e-16
+Brain_Outside,204,3,DPZ,A,2.590520390792032e-16
+Brain_Outside,204,3,DPZ,AV,0.0
+Brain_Outside,204,3,DPZ,V,2.9605947323337506e-16
+Brain_Outside,204,3,DPZ,W,-1.8503717077085943e-16
+Brain_Outside,204,3,DPZ,constant,0.0
+Brain_Outside,205,1,PL,A,-7.401486830834377e-17
+Brain_Outside,205,1,PL,AV,1.1102230246251565e-16
+Brain_Outside,205,1,PL,V,-1.8503717077085943e-16
+Brain_Outside,205,1,PL,W,-2.590520390792032e-16
+Brain_Outside,205,1,PL,constant,-2.9605947323337506e-16
+Brain_Outside,205,3,PL,A,7.401486830834377e-17
+Brain_Outside,205,3,PL,AV,7.401486830834377e-17
+Brain_Outside,205,3,PL,V,7.401486830834377e-17
+Brain_Outside,205,3,PL,W,7.401486830834377e-17
+Brain_Outside,205,3,PL,constant,-1.4802973661668753e-16
+Brain_Outside,207,1,PL,A,-7.401486830834377e-17
+Brain_Outside,207,1,PL,AV,4.070817756958907e-16
+Brain_Outside,207,1,PL,V,3.515706244646329e-16
+Brain_Outside,207,1,PL,W,1.8503717077085943e-16
+Brain_Outside,207,1,PL,constant,-1.8503717077085943e-16
+Brain_Outside,207,3,PL,A,7.401486830834377e-17
+Brain_Outside,207,3,PL,AV,-2.9605947323337506e-16
+Brain_Outside,207,3,PL,V,5.551115123125783e-16
+Brain_Outside,207,3,PL,W,-4.625929269271486e-16
+Brain_Outside,207,3,PL,constant,0.0
+Brain_Outside,209,1,DPZ,A,1.1102230246251565e-16
+Brain_Outside,209,1,DPZ,AV,-4.070817756958907e-16
+Brain_Outside,209,1,DPZ,V,-7.401486830834377e-17
+Brain_Outside,209,1,DPZ,W,0.0
+Brain_Outside,209,1,DPZ,constant,-7.401486830834377e-17
+Brain_Outside,209,3,DPZ,A,0.0
+Brain_Outside,209,3,DPZ,AV,1.1102230246251565e-16
+Brain_Outside,209,3,DPZ,V,3.700743415417188e-17
+Brain_Outside,209,3,DPZ,W,-7.401486830834377e-17
+Brain_Outside,209,3,DPZ,constant,1.4802973661668753e-16
+Brain_Outside,212,1,DPZ,A,0.0
+Brain_Outside,212,1,DPZ,AV,-1.850371707708594e-17
+Brain_Outside,212,1,DPZ,V,1.4802973661668753e-16
+Brain_Outside,212,1,DPZ,W,4.440892098500626e-16
+Brain_Outside,212,1,DPZ,constant,1.4802973661668753e-16
+Brain_Outside,212,3,DPZ,A,-1.4802973661668753e-16
+Brain_Outside,212,3,DPZ,AV,-1.4802973661668753e-16
+Brain_Outside,212,3,DPZ,V,5.04226290350592e-16
+Brain_Outside,212,3,DPZ,W,2.220446049250313e-16
+Brain_Outside,212,3,DPZ,constant,7.401486830834377e-17
+Brain_Outside,213,1,PL,A,3.7007434154171886e-16
+Brain_Outside,213,1,PL,AV,0.0
+Brain_Outside,213,1,PL,V,-3.3306690738754696e-16
+Brain_Outside,213,1,PL,W,3.7007434154171886e-16
+Brain_Outside,213,1,PL,constant,2.9605947323337506e-16
+Brain_Outside,213,3,PL,A,1.4802973661668753e-16
+Brain_Outside,213,3,PL,AV,-1.1102230246251565e-16
+Brain_Outside,213,3,PL,V,2.220446049250313e-16
+Brain_Outside,213,3,PL,W,2.7755575615628914e-16
+Brain_Outside,213,3,PL,constant,3.700743415417188e-17
